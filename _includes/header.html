@@ -83,6 +83,13 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.medium_username -%}
+          <li>
+            <a target="_blank" href="https://medium.com/{{ site.medium_username| escape }}" class="button button--sacnite button--round-l">
+              <i class="fa fa-medium" title="Medium"></i>
+            </a>
+          </li>
+        {%- endif -%}
       </ul>
 
       {%- if site.email -%}
@@ -95,11 +102,17 @@
           Phone: {{ site.phone | escape }}
         </p>
       {%- endif -%}
-      {%- if site.website -%}
+      {%- if site.blog -%}
         <p>
-          Web: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+          blog: {% include a.html href=site.blog %}{{ site.blog | escape }}</a>
         </p>
       {%- endif -%}
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 header-left" style="margin-top:1rem">
+      <a href="#about"><button>About Me</button></a>
+      <a href="#projects"><button>Projects</button></a>
+      <a href="#experience"><button>Experience</button></a>
+      <a href="#education"><button>Education</button></a>
     </div>
   </div>
 </div>

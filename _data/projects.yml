@@ -1,9 +1,63 @@
 # Project template
 - layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  name: Box Execute
+  link: 
+  github: akshitgrover/box-exec
   quote: >
-    Short overview of the project (optional)
+    Minimal container orchestrator for compilation and execution written in NodeJS
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    Box Execute is a minimal container orchestrator which is used to manage container and resources allocated to them. 
+    Containers are the used for compilation and execution of codes submitted as raw files.
+    Box takes care of queuing, scheduling and terminating of submitted code running as a process inside the container.
+    Box Execute provide CLI to manage containers and resources allocated. 
+
+- layout: top-middle
+  name: Try Box Execute
+  link: 
+  github: akshitgrover/try-box-exec
+  quote: >
+    Minimal webapp to try and run code using box-exec.
+  description: | # this will include new lines to allow paragraphs
+    Try box execute provides a realtime interface to try out box exec.
+    Code editor built in the webapp is used to try and submit the code.
+    Testcase and Timeout along with the code are submitted as an HTTP request.
+    Realtime status of the request is displayed in the status section.
+    Output of the code is displayed inside an interactice output section.
+    Compile time/Runtime errors are displayed.
+
+- layout: top-middle
+  name: JoGO
+  link: https://godoc.org/github.com/akshitgrover/jogo/jogo
+  github: akshitgrover/jogo
+  quote: >
+    JSON o Golang | Forget static types, No more complex structure definitions, Focus on code. Go Reflect!
+  description: | # this will include new lines to allow paragraphs
+    JoGO uses memoization to return results faster. JoGO facilitates handling of large and complex JSON structures by making use of go reflections and type assertions in golang.
+
+- layout: top-middle
+  name: Trie
+  link: 
+  github: akshitgrover/trie
+  quote: >
+    STL Compatible TRIE data structure implementation
+  description: | # this will include new lines to allow paragraphs
+    Trie is nothing but a data structure in the form of a tree which is in turn used to retrieve data. Trie store value against a key which is a string, Since each character of a string gets a new node, Trie is also known as a prefix tree. Data in a Trie is stored in a lexographical order.
+
+- layout: top-middle
+  name: AlterSet
+  link: https://akshitgrover.github.io/alterSet/
+  github: akshitgrover/alterSet
+  quote: >
+    An Object manipulation library
+  description: | # this will include new lines to allow paragraphs
+    AlterSet extensively uses functional prototypes to leverage the prototypical chain and build functions on top of it.
+
+- layout: top-middle
+  name: Rotary Riviera Eye Donation Webapp
+  link: http://rivieraeyedonation.com
+  github: 
+  quote: >
+    Webapp to manage and pledge requests, showcase donation list for.
+  description: | # this will include new lines to allow paragraphs
+    Minimal CMS for Rotary Club Riviera Yamunanagar to Manage data of donations, Spread awareness, Unfold myths regarding eye donation, Accept pledge request online.
+    Webapp has a builin admin portal. After filling pledge request, One receives a message from Rotary Riviera on mobile number, Admin is also notfied through text message.
