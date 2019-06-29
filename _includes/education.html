@@ -3,4 +3,6 @@
   {% for education in site.data.education %}
     {% include {{ education.layout | default: 'left' | append: ".html" }} item=education %}
   {% endfor %}
+  <br>
+  <a href="#home"><button style="font-size:1.2rem">Home</button></a>
 </div>

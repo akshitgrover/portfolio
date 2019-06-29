@@ -1,10 +1,47 @@
-# Experience template
-- layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+- layout: left 
+  company: Docker
+  link: http://docker.com
+  job_title: Community Leader
+  dates: April 2019 - present
   quote: >
-   Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of role
+   Docker, Inc is the company behind development of Docker, an open-source project that automates the deployment of code inside software containers. Docker, Inc had over 423 employees in 2015 and is based in San Francisco, California.
+  description: |
+    Docker community leader is responsible for organising in-person events, network with ecosystem partners, mentoring about Docker technology. In addition, they help their fellow Community Leaders and provide support and feedback they provide to Docker.
+
+- layout: left 
+  company: Winuall
+  link: http://winuall.com
+  job_title: DevOps Intern
+  dates: May 2018 - June 2018
+  quote: >
+    Winuall aims to concentrate and channelize the efforts of all exam aspirants in the right direction, in order to achieve the maximum.
+  description: |
+    As a DevOps intern I had to take care of automating the process of build and deploy. Handling the cloud deployments, creating efficient architecture and selecting and using right kind of tools in the process. 
+
+- layout: left 
+  company: ACM VIT Student Chapter
+  link: http://acmvit.in
+  job_title: Vice President Technical
+  dates: April 2018 - April 2019
+  quote: |
+    ACM-VIT, one of the most reputed and distinguished technical chapter in VIT, Vellore has been working with vision and determination since it’s inception in 2009, with the aspirations of advancement of computer science as a science and a profession.
+  description: |
+    Role of VP technical is take the chapter forward. Making sure that the team is progressing and are productive. Organising events to develop a safe and friendly environment for the community to progess.
+    Being available to everyone and address their personal as well as professional problems. Talking to the team and suggesting what's best for the individual. Working out ideas and solutions for projects which minimise the effort and are more efficient. Incorporate new and emerging technologies. 
+    <br><br><mark>Note</mark>: Read more about my experience at [acm.akshitgrover.dev](http://acm.akshitgrover.dev)
+- layout: left 
+  company: ACM VIT Student Chapter
+  link: http://acmvit.in
+  job_title: Core Committee Member
+  dates: January 2017 - March 2018
+  quote: |
+    ACM-VIT, one of the most reputed and distinguished technical chapter in VIT, Vellore has been working with vision and determination since it’s inception in 2009, with the aspirations of advancement of computer science as a science and a profession.
+  description: |
+    Role of core committee member is to:
+    - Take part in core meetings to raise any concerns and give their point of view on the topic
+    - Being an active member and helping others in the team
+    - Groom oneself by taking up roles that can be justified best by him/her
+    - Experience how things are done and be a part of every chapter activity
+    - Building a friendly and positive environment in the community
+
+    <br><mark>Note</mark>: Read more about my experience at [acm.akshitgrover.dev](http://acm.akshitgrover.dev)
