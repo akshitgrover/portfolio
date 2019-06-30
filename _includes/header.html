@@ -107,6 +107,11 @@
           blog: {% include a.html href=site.blog %}{{ site.blog | escape }}</a>
         </p>
       {%- endif -%}
+      {%- if site.resume -%}
+        <p>
+          Resume: <a target="_blank" href={{ site.resume | relative }}>Download</a>
+        </p>
+      {%- endif -%}
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 header-left" style="margin-top:1rem">
       <a href="#about"><button>About Me</button></a>
