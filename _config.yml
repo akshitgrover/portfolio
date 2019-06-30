@@ -32,7 +32,7 @@ medium_username: "@akshitgrover_"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I my name is Akshit Grover. I am in my <mark>senior year</mark> of <mark>Computer Science</mark> at Vellore Institue of Technology, Vellore, India.
+  Hi, My name is Akshit Grover. I am in my <mark>senior year</mark> of <mark>Computer Science</mark> at Vellore Institue of Technology, Vellore, India.
   I take pleasure in creating and building things. I make sure to spend my free time meditating. It is beneficial for maintaing a positive, radical and insightful mental attitude.
   I play guitar to stay positive and creative whenever under stress.
   
@@ -58,11 +58,13 @@ about_content: | # this will include new lines to allow paragraphs
 # education_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+more_title: Let's collaborate #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  I love working on team projects.<br>
+  I am part time open source contributor and have a few contributions in [docker/compose](http://github.com/docker/compose) and [collabnix/dockerlabs](http://github.com/collabnix/dockerlabs).
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  If you are working on a project and need a helping hand I would be happy to help.<br>
+  Drop me an email [contact@akshitgrover.dev](mailto:contact@akshitgrover.dev)
 
 # Footer
 footer_show_references: true
