@@ -25,7 +25,7 @@
     Output of the code is displayed inside an interactice output section.
     Compile time/Runtime errors are displayed.
 
-- layout: top-middle
+- layout: top-right
   name: JoGO
   link: https://godoc.org/github.com/akshitgrover/jogo/jogo
   github: akshitgrover/jogo
@@ -34,7 +34,7 @@
   description: | # this will include new lines to allow paragraphs
     JoGO uses memoization to return results faster. JoGO facilitates handling of large and complex JSON structures by making use of go reflections and type assertions in golang.
 
-- layout: top-middle
+- layout: top
   name: Trie
   link: 
   github: akshitgrover/trie
@@ -43,7 +43,7 @@
   description: | # this will include new lines to allow paragraphs
     Trie is nothing but a data structure in the form of a tree which is in turn used to retrieve data. Trie store value against a key which is a string, Since each character of a string gets a new node, Trie is also known as a prefix tree. Data in a Trie is stored in a lexographical order.
 
-- layout: top-middle
+- layout: right
   name: AlterSet
   link: https://akshitgrover.github.io/alterSet/
   github: akshitgrover/alterSet
