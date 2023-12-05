@@ -1,5 +1,5 @@
 # Project template
-- layout: top-middle
+- layout: left
   name: Box Execute
   link: 
   github: akshitgrover/box-exec
